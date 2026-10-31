@@ -15,6 +15,7 @@ scoop install gigas/<manifestname>
 
 | Name | Description |
 | --- | --- |
+| [acheron](https://github.com/ouwou/acheron) | An alternative Discord client with voice support made with C++ and Qt 6 Widgets |
 | [concord](https://github.com/chojs23/concord) | A feature-rich TUI client for Discord |
 
 ## How do I contribute new manifests?
