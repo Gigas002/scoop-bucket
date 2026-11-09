@@ -1,13 +1,13 @@
 {
-    "version": "2026.11.07-4f2a719",
+    "version": "2026.11.08-36618c4",
     "description": "An alternative Discord client with voice support made with C++ and Qt 6 Widgets",
     "homepage": "https://github.com/ouwou/acheron",
     "license": "GPL-3.0-only",
     "notes": "This is a nightly build from GitHub Actions; there are no tagged releases.",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ouwou/acheron/actions/runs/42322924200/acheron-windows-MinSizeRel.zip",
-            "hash": "3a1969ab75445b894f9ef0a1f224b5667d6e841a780615f68143494bb4f80f54"
+            "url": "https://nightly.link/ouwou/acheron/actions/runs/42530646058/acheron-windows-MinSizeRel.zip",
+            "hash": "80566b6ebd1505cd9cfa8832e0be060f2521dd07437fa46ef647b36918f23fd0"
         }
     },
     "bin": "acheron.exe",
