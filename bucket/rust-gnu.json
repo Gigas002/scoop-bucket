@@ -1,0 +1,37 @@
+{
+    "version": "1.100.0",
+    "description": "A language empowering everyone to build reliable and efficient software. (GNU toolchain, with rustfmt and clippy on PATH)",
+    "homepage": "https://www.rust-lang.org",
+    "license": "MIT|Apache-2.0",
+    "notes": "main/rust-gnu with rustfmt and clippy shimmed, so `cargo fmt` and `cargo clippy` work. rust-analyzer is left to main/rust-analyzer.",
+    "architecture": {
+        "64bit": {
+            "url": "https://static.rust-lang.org/dist/rust-1.100.0-x86_64-pc-windows-gnu.msi",
+            "hash": "d78056d2b6e82418583d4849e689c780eb393fc73cf09e98eaf205e2cd778b17"
+        }
+    },
+    "extract_dir": "Rust",
+    "bin": [
+        "bin\\rustc.exe",
+        "bin\\rustdoc.exe",
+        "bin\\cargo.exe",
+        "bin\\rustfmt.exe",
+        "bin\\cargo-fmt.exe",
+        "bin\\cargo-clippy.exe",
+        "bin\\clippy-driver.exe"
+    ],
+    "checkver": {
+        "url": "https://www.rust-lang.org/",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://static.rust-lang.org/dist/rust-$version-x86_64-pc-windows-gnu.msi"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

@@ -17,6 +17,8 @@ scoop install gigas/<manifestname>
 | --- | --- |
 | [acheron](https://github.com/ouwou/acheron) | An alternative Discord client with voice support made with C++ and Qt 6 Widgets |
 | [concord](https://github.com/chojs23/concord) | A feature-rich TUI client for Discord |
+| [cargo-deny](https://github.com/EmbarkStudios/cargo-deny) | Cargo plugin for linting your dependencies: licenses, bans, advisories and sources |
+| [rust-gnu](https://www.rust-lang.org) | Rust, GNU toolchain: `main/rust-gnu` with rustfmt and clippy on PATH |
 
 ## How do I contribute new manifests?
 

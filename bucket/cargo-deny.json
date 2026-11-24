@@ -1,0 +1,26 @@
+{
+    "version": "0.22.0",
+    "description": "Cargo plugin for linting your dependencies: licenses, bans, advisories and sources",
+    "homepage": "https://github.com/EmbarkStudios/cargo-deny",
+    "license": "MIT|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/0.22.0/cargo-deny-0.22.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "a85b270b4aa28633d2cb2be97fccd4518ccb783014914e99463e75468cb3183c",
+            "extract_dir": "cargo-deny-0.22.0-x86_64-pc-windows-msvc"
+        }
+    },
+    "bin": "cargo-deny.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/EmbarkStudios/cargo-deny/releases/download/$version/cargo-deny-$version-x86_64-pc-windows-msvc.tar.gz",
+                "extract_dir": "cargo-deny-$version-x86_64-pc-windows-msvc"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
